@@ -1,0 +1,30 @@
+steps to run Realtime Detection System
+========================================================================================
+
+source ids_env/bin/activate
+
+vmware-hgfsclient
+
+mount | grep hgfs
+
+sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other -o uid=1000
+
+cd /mnt/hgfs/IDS-hybrid-shared
+
+
+sudo /home/vathsan/ids_env/bin/python3 main.py --mode realtime
+
+
+========================================================================================
+GANACHE FIX
+========================================================================================
+
+cd D:\IDS-hybrid\frontend
+npm run dev
+
+
+
+
+.venv\Scripts\activate
+cd D:\IDS-hybrid\soc_backend
+uvicorn api_server:app --reload

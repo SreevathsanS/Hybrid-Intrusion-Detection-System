@@ -1,0 +1,30 @@
+ Working Directory: /content
+Train shape: (125973, 42)
+Test shape: (22544, 42)
+Numeric fix complete.
+Assumed NORMAL label: 21
+Train label distribution: [62557 63416]
+Test label distribution : [10694 11850]
+OneHot encoding complete.
+Total features used: 3460
+Scaling complete.
+Training XGBoost on GPU...
+/usr/local/lib/python3.12/dist-packages/xgboost/training.py:199: UserWarning: [05:45:37] WARNING: /workspace/src/learner.cc:790: 
+Parameters: { "predictor", "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+Accuracy: 0.9550212916962385
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      Normal       0.94      0.97      0.95     10694
+      Attack       0.97      0.94      0.96     11850
+
+    accuracy                           0.96     22544
+   macro avg       0.95      0.96      0.95     22544
+weighted avg       0.96      0.96      0.96     22544
+
+Sample confidence scores: [0.9969401  0.99005044 0.78192174 0.9995671  0.93036294]
+GPU model, scaler, encoder & feature columns saved successfully.

@@ -1,0 +1,7 @@
+﻿ips/archive/
+training_pipeline/pcaps/
+*.pcap
+*.csv
+ids_env/
+__pycache__/
+logs/*.jsonl
