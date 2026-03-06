@@ -13,15 +13,11 @@ sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other -o uid=1000
 
 cd /mnt/hgfs/IDS-hybrid-shared
 
-cd RTD
-
 cd ips
 
 
-sudo /home/vathsan/ids_env/bin/python3 main.py --mode realtime
+sudo /home/vathsan/ids_env/bin/python3 main.py
 
-
-sudo /home/vathsan/ids_env/bin/python3 -m inline_ips.main
 
 
  

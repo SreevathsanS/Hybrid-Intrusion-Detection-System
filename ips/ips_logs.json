@@ -186,3 +186,15 @@
 {"timestamp": "2026-02-20T15:01:31", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
 {"timestamp": "2026-02-20T15:02:08", "source_ip": "192.168.111.1", "attack_type": "PORT_SCAN", "confidence": 1.0, "block_duration": 5}
 {"timestamp": "2026-02-20T15:06:03", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-03T10:45:43", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-03T10:46:21", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-03T10:48:02", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-03T10:54:46", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-03T10:55:23", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-03T10:56:29", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-03T10:57:07", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-03T13:55:16", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-03T13:55:52", "source_ip": "192.168.111.1", "attack_type": "PORT_SCAN", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-03T13:56:31", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-05T15:24:35", "source_ip": "192.168.111.1", "attack_type": "DDoS_PPS", "confidence": 1.0, "block_duration": 5}
+{"timestamp": "2026-03-05T15:25:11", "source_ip": "192.168.111.1", "attack_type": "PORT_SCAN", "confidence": 1.0, "block_duration": 5}

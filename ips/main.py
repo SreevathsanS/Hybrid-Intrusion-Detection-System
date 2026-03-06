@@ -102,9 +102,9 @@ def live_attack_writer():
                 for ip, session in GLOBAL_SESSION_MANAGER.active_sessions.items():
                     active_sessions.append({
                         "src_ip": ip,
-                        "attack_type": session.attack_type,
-                        "start_time": session.start_time,
-                        "packet_count": session.packet_count,
+                        "attack_type": session["attack_type"],
+                        "start_time": session["start_time"] ,
+                        "packet_count": session["packet_count"],
                         "status": "ACTIVE"
                     })
 
